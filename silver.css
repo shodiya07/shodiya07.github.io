@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background: #262626;
+    height: 120px;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+}
+
+span {
+    color: #f9004c;
+}
+
+.nav1 ul li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav1 ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav1 ul li a:hover {
+    color: #f9004c;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #f9004c;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+.con {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+header nav .logo {
+    display: block;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    margin: auto;
+}
+
+header nav ul li a {
+
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+header nav ul li a:hover {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #4581B7;
+    border-bottom: 2px solid #4581B7;
+}
+
+main .rasm {
+    display: block;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    width: 1110px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+section .box {
+    width: 730px;
+    height: 460px;
+    background: rgba(196, 196, 196, 0.5);
+    padding: 93px 38px
+}
+
+section .box2 {
+    width: 350px;
+    height: 460px;
+    background: rgba(196, 196, 196, 0.5);
+    padding: 93px 38px
+}
+section .box h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+/* Blue */
+
+color: #4581B7;
+}
+section .box p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: rgba(0, 0, 0, 0.5);
+}
+section .box2 h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+
+/* Blue */
+
+color: #4581B7;
+}
+section .box2 p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: rgba(0, 0, 0, 0.5);
+}
+footer .brain{
+    background: rgba(196, 196, 196, 0.5);
+    width: 1110px;
+height: 160px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+footer .brain .n1{
+    padding: 20px 30px;
+}
+footer .brain .n2{
+    padding: 35px 56px;
+}
+footer .brain .n2 p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+
+color: rgba(0, 0, 0, 0.5);
+}
+footer .brain .n2 .nn{
+    text-align: right;
+}

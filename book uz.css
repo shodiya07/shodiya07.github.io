@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 36px;
+    background: #262626;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+}
+span{
+    color: #f9004c;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 36px;
+    background: #262626;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+nav ul li a:hover{
+    color: #FF5B56;
+}
+.btn{
+    background-color: #f9004c;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+ }
+ .btn:hover{
+     color: white;
+     transform: scale(1.3);
+ }
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.box2 {
+    width: 1060px;
+    height: 500px;
+    background-image: url(./1614723891_106-p-foni-dlya-literaturi-128\ 1\ \(1\).jpg);
+    margin: 60px auto 0px;
+}
+
+.box2 h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+
+    color: #494949;
+}
+.orta{
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.orta .box_orta{
+    width: 330px;
+    height: 330px;
+    background: #C4C4C4;
+    margin: 80px 0;
+    overflow: auto;
+
+}
+.orta .box_orta h2{
+    padding: 30px 30px;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.orta .box_ort p{
+padding-top: 30px 10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+text-align: center;
+
+}
+.bottom{
+display: flex;
+justify-content: space-around;
+position: absolute;
+width: 100%;
+height: 260px;
+background: #C4C4C4;
+}
+.bottom img{
+    padding: 80px 900px 80px 170px;
+}
+.bottom .b1 p{
+    padding: 90px  ;
+}
